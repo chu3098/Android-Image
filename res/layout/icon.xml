@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:fitsSystemWindows="false"
+	android:baselineAligned="false"
+	android:clipToPadding="true" android:padding="3sp">
+	<ImageView
+		android:src="@drawable/icon"
+		android:id="@+id/icon_image"
+		android:adjustViewBounds="true"
+		android:maxHeight="100sp"
+		android:focusable="false"
+		android:fitsSystemWindows="true"
+		android:layout_gravity="center"
+		android:layout_height="match_parent"
+		android:layout_margin="5sp"
+		android:layout_width="match_parent"
+		android:background="#edefed"
+		android:padding="5sp" android:cropToPadding="false" android:scaleType="fitXY" android:baselineAlignBottom="true"></ImageView>
+	<TextView
+		android:text="TextView"
+		android:id="@+id/icon_text"
+		android:textSize="18sp"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</TextView>
+</LinearLayout>
